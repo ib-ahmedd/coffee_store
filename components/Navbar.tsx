@@ -9,7 +9,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className="w-full absolute flex flex-col items-center px-7 py-4 mx-auto xl:w-3/4 xl:px-0 md:flex-row md:justify-between">
+    <nav className="w-full absolute top-0 flex flex-col items-center px-7 py-4 mx-auto xl:w-3/4 xl:px-0 md:flex-row md:justify-between">
       <span className="md:flex hidden gap-4 flex-1">
         {navLinksArray.map((item) => (
           <NavLink

@@ -1,5 +1,11 @@
+import { Intro } from "./components";
+
 function Home() {
-  return <main>Body</main>;
+  return (
+    <main className="w-full">
+      <Intro />
+    </main>
+  );
 }
 
 export default Home;

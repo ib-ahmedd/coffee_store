@@ -10,8 +10,12 @@ module.exports = {
       colors: {
         "regal-blue": "#243c5a",
       },
+      backgroundImage: {
+        homeIntroBg: "url('/images/home/intro/bg-img.jpg')",
+      },
       fontFamily: {
         monteserat: ['"Montserrat"', "sans-serif"],
+        yeseva: ["'Yeseva One'", "serif"],
       },
     },
   },
