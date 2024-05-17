@@ -10,7 +10,7 @@ export const metadata = {
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html>
-      <body>
+      <body className="flex justify-center bg-slate-600 font-monteserat">
         <Navbar />
         {children}
         <Footer />
