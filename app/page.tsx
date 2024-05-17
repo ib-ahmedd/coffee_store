@@ -1,9 +1,10 @@
-import { Intro } from "./components";
+import { About, Intro } from "./components";
 
 function Home() {
   return (
     <main className="w-full">
       <Intro />
+      <About />
     </main>
   );
 }
