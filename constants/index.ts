@@ -1,5 +1,3 @@
-import { MenuCardProps } from "@types";
-
 export const navLinksArray = [
   { title: "Home", path: "/" },
   { title: "About", path: "/about" },
@@ -40,4 +38,9 @@ export const featuredMenuArray = [
   { picNo: "02", price: 4.9, title: "Latte Machiatto" },
   { picNo: "03", price: 3.75, title: "Cafe Latte" },
   { picNo: "04", price: 2.9, title: "Cappuccino" },
+];
+
+export const reviewSectionArray = [
+  { pic: "/images/home/reviews/img-1.jpg", user: "Claudia Taylor" },
+  { pic: "/images/home/reviews/img-2.jpg", user: "Winston Oliver" },
 ];

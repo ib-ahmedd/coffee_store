@@ -11,7 +11,7 @@ function Intro() {
           Come enjoy the lorem ipsum dolor sit amet, consectetur
           <br className="hidden md:block" /> adipisicing elit, sed do eiusmod
         </p>
-        <button className="w-40 bg-orange hover:bg-[#0274be] transition-all duration-200 text-white py-4 shadow-md font-monteserat">
+        <button className="w-40 bg-orange hover:bg-[#0274be] transition-all duration-200 text-white py-4 shadow-md">
           Book A Table
         </button>
       </div>

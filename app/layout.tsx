@@ -10,7 +10,7 @@ export const metadata = {
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html>
-      <body className="flex flex-col items-center">
+      <body className="flex flex-col items-center font-monteserat">
         <Navbar />
         {children}
         <Footer />

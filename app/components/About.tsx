@@ -12,7 +12,7 @@ function About() {
           Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud
         </h3>
-        <p className="text-monteserat z-10 my-4 text-semi-black">
+        <p className="z-10 my-4 text-semi-black">
           Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
           ea commodo consequat. Duis aute irure dolor in reprehenderit in

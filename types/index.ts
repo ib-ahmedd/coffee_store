@@ -9,3 +9,8 @@ export interface MenuCardProps {
   price: number;
   title: string;
 }
+
+export interface ReviewCardProps {
+  pic: string;
+  user: string;
+}
