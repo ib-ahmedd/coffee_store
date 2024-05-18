@@ -4,8 +4,8 @@ import React from "react";
 function About() {
   return (
     <section className="flex flex-col md:flex-row bg-[#fcf6ef]  w-full items-end md:h-screen">
-      <div className="w-full h-full flex flex-col p-8 lg:p-40 box-border md:w-1/2">
-        <h2 className="font-bold font-yeseva text-4xl z-10 text-orange my-4 lg:text-8xl sm:text-6xl">
+      <div className="w-full h-full flex flex-col p-8 xl:p-40 box-border md:w-1/2">
+        <h2 className=" font-yeseva text-5xl z-10 text-orange my-4 lg:text-8xl sm:text-6xl">
           About
         </h2>
         <h3 className="text-orange z-10 font-yeseva text-lg sm:text-xl">

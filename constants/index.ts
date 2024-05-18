@@ -1,3 +1,5 @@
+import { MenuCardProps } from "@types";
+
 export const navLinksArray = [
   { title: "Home", path: "/" },
   { title: "About", path: "/about" },
@@ -31,4 +33,11 @@ export const footerSlidesArray = [
     alt: "last slide image",
     display: "hidden",
   },
+];
+
+export const featuredMenuArray = [
+  { picNo: "01", price: 3.5, title: "Dark Coffee" },
+  { picNo: "02", price: 4.9, title: "Latte Machiatto" },
+  { picNo: "03", price: 3.75, title: "Cafe Latte" },
+  { picNo: "04", price: 2.9, title: "Cappuccino" },
 ];

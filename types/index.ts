@@ -3,3 +3,9 @@ export interface NavLinkProps {
   title: string;
   styles: string;
 }
+
+export interface MenuCardProps {
+  picNo: string;
+  price: number;
+  title: string;
+}

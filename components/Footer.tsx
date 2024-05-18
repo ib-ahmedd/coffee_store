@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -33,7 +34,7 @@ const Footer = () => {
             <h3 className="text-lg md:text-2xl font-yeseva mb-4 text-semi-black">
               Follow Us
             </h3>
-            <div className="text-xl text-[#298a81] flex gap-4">
+            <div className="text-xl text-text-green flex gap-4">
               <FontAwesomeIcon icon={faFacebookF} />
               <FontAwesomeIcon icon={faInstagram} />
               <FontAwesomeIcon icon={faTwitter} />
@@ -46,12 +47,12 @@ const Footer = () => {
             <ul>
               {navLinksArray.map((item) => (
                 <li key={item.title}>
-                  <a
+                  <Link
                     href={item.path}
                     className="font-monteserat text-semi-black hover:text-orange"
                   >
                     {item.title}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

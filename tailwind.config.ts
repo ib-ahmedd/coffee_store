@@ -27,6 +27,7 @@ module.exports = {
         "regal-blue": "#243c5a",
         orange: "#c2884f",
         "semi-black": "#444",
+        "text-green": "#298a81",
       },
       backgroundImage: {
         "home-intro-bg": "url('/images/home/intro/bg-img.jpg')",
