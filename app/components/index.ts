@@ -1,5 +1,6 @@
-import Intro from "./intro/Intro";
-import About from "./about/About";
-import Featured from "./featured/Featured";
+import Intro from "./Intro";
+import About from "./About";
+import Featured from "./Featured";
+import Reviews from "./Reviews";
 
-export { Intro, About, Featured };
+export { Intro, About, Featured, Reviews };

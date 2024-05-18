@@ -1,4 +1,4 @@
-import { About, Featured, Intro } from "./components";
+import { About, Featured, Intro, Reviews } from "./components";
 
 function Home() {
   return (
@@ -6,6 +6,7 @@ function Home() {
       <Intro />
       <About />
       <Featured />
+      <Reviews />
     </main>
   );
 }
