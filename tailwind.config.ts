@@ -24,7 +24,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        "regal-blue": "#243c5a",
+        peach: "#fcf6ef",
         orange: "#c2884f",
         "semi-black": "#444",
         "text-green": "#298a81",
@@ -34,6 +34,7 @@ module.exports = {
         "home-about-bg": "url('/images/home/sec2/cup.jpg')",
         "home-about-nuts": "url('/images/home/sec2/bg-img-nuts.png')",
         "home-reviews-bg": "url('/images/home/reviews/bg-img.jpg')",
+        "home-buy-bg": "url('/images/home/buy/bg-img.png')",
       },
       fontFamily: {
         monteserat: ['"Montserrat"', "sans-serif"],

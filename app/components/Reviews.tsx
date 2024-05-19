@@ -17,7 +17,7 @@ function Reviews() {
           {reviewSectionArray.map((item) => (
             <ReviewCard key={item.user} {...item} />
           ))}
-          <a href="" className="underline self-end">
+          <a href="" className="underline lg:self-end">
             Read More Reviews
           </a>
         </div>
