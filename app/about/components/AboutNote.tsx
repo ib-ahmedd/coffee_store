@@ -1,6 +1,6 @@
 function AboutNote() {
   return (
-    <section className="bg-peach">
+    <section className="bg-peach relative">
       <div className="w-full h-screen absolute bg-home-about-nuts bg-cover lg:bg-fixed" />
       <div className="w-full flex justify-center bg-home-buy-bg bg-contain bg-right bg-no-repeat py-14">
         <div className="flex w-full p-4 flex-col gap-5 md:gap-0 md:flex-row xl:w-4/5 xl:p-0">
