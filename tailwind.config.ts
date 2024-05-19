@@ -24,9 +24,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        "gradient-grey": "#3a3a3a",
         peach: "#fcf6ef",
         orange: "#c2884f",
+        gray: "#888",
+        "gradient-grey": "#3a3a3a",
         "semi-black": "#444",
         "text-green": "#298a81",
       },
