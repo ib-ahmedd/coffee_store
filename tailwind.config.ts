@@ -39,6 +39,7 @@ module.exports = {
         "home-buy-bg": "url('/images/home/buy/bg-img.png')",
         "about-intro-bg": "url('/images/about/intro/bg-img.jpg')",
         "menu-intro-bg": "url('/images/menu/intro/bg-img.jpg')",
+        "contact-intro-bg": "url('/images/contact/intro-bg.jpg')",
       },
       fontFamily: {
         monteserat: ['"Montserrat"', "sans-serif"],
