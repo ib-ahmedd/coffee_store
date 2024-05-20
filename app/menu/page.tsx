@@ -1,7 +1,11 @@
-import React from "react";
+import { Intro } from "./components";
 
 function Menu() {
-  return <div>Menu</div>;
+  return (
+    <main className="w-full">
+      <Intro />
+    </main>
+  );
 }
 
 export default Menu;
