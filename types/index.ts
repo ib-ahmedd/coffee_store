@@ -1,3 +1,5 @@
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+
 export interface NavLinkProps {
   path: string;
   title: string;
@@ -14,4 +16,12 @@ export interface MenuCardProps {
 export interface ReviewCardProps {
   pic: string;
   user: string;
+}
+
+export interface ContactInfoCardProps {
+  heading: string;
+  info: string;
+  linkText: string;
+  widthStyles: string;
+  icon: IconDefinition;
 }

@@ -1,10 +1,11 @@
 import React from "react";
-import { Intro } from "./components";
+import { ContactInfo, Intro } from "./components";
 
 function Contact() {
   return (
     <main className="w-full">
       <Intro />
+      <ContactInfo />
     </main>
   );
 }

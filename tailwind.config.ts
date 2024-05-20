@@ -30,6 +30,7 @@ module.exports = {
         "gradient-grey": "#3a3a3a",
         "semi-black": "#444",
         "text-green": "#298a81",
+        "border-orange": "#c2884f42",
       },
       backgroundImage: {
         "home-intro-bg": "url('/images/home/intro/bg-img.jpg')",
