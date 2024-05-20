@@ -1,3 +1,5 @@
+import { MenuCardProps } from "@types";
+
 export const navLinksArray = [
   { title: "Home", path: "/" },
   { title: "About", path: "/about" },
@@ -43,4 +45,55 @@ export const featuredMenuArray = [
 export const reviewSectionArray = [
   { pic: "/images/home/reviews/img-1.jpg", user: "Claudia Taylor" },
   { pic: "/images/home/reviews/img-2.jpg", user: "Winston Oliver" },
+];
+
+export const menuPageMenuArray: MenuCardProps[] = [
+  {
+    picNo: "1",
+    title: "Caffè Lattè",
+    price: 2.5,
+    desc: "Like a traditional Caffè Machiatto",
+  },
+  {
+    picNo: "2",
+    title: "Cappuccino",
+    price: 3.5,
+    desc: "Espresso and a milk foam mixture",
+  },
+  {
+    picNo: "3",
+    title: "Double Espresso",
+    price: 3.0,
+    desc: "A shot of espresso, whipped cream",
+  },
+  {
+    picNo: "4",
+    title: "Flat White",
+    price: 2.9,
+    desc: "Espresso and lightly frosted milk",
+  },
+  {
+    picNo: "5",
+    title: "Frappè",
+    price: 2.7,
+    desc: "Espresso and lightly frosted milk",
+  },
+  {
+    picNo: "6",
+    title: "Iced Lattè",
+    price: 2.5,
+    desc: "Espresso and lightly frosted milk",
+  },
+  {
+    picNo: "7",
+    title: "Irish Coffe",
+    price: 3.5,
+    desc: "Classic coffee with Irish whiskey",
+  },
+  {
+    picNo: "8",
+    title: "Lattè Machiatto",
+    price: 2.0,
+    desc: "Like a traditional caffè latte",
+  },
 ];

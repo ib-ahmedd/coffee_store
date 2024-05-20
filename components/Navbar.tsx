@@ -40,17 +40,23 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faClose} />
         )}
       </button>
-      <div className="w-full md:hidden overflow-hidden">
+      <div
+        className={`w-full md:hidden ${
+          menuOpen ? "overflow-visible" : "overflow-hidden"
+        }`}
+      >
         <div
-          className={`flex flex-col w-full bg-white md:hidden transition duration-200 ${
-            menuOpen ? "translate-y-0" : "translate-y-full"
+          className={`flex flex-col w-full bg-white md:hidden transition duration-200 relative z-20 shadow-xl rounded-md ${
+            menuOpen
+              ? "translate-y-0 opacity-100"
+              : "-translate-y-full opacity-0"
           }`}
         >
           {navLinksArray.map((item) => (
             <NavLink
               key={item.title}
               {...item}
-              styles="w-full py-4 px-4 border-b"
+              styles="w-full py-4 px-4 shadow-md hover:bg-slate-300"
             />
           ))}
         </div>

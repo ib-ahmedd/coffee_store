@@ -8,6 +8,7 @@ export interface MenuCardProps {
   picNo: string;
   price: number;
   title: string;
+  desc?: string;
 }
 
 export interface ReviewCardProps {

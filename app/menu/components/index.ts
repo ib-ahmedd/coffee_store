@@ -1,2 +1,4 @@
 import Intro from "./Intro";
-export { Intro };
+import MenuContent from "./MenuContent";
+
+export { Intro, MenuContent };
