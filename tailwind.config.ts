@@ -27,6 +27,7 @@ module.exports = {
         peach: "#fcf6ef",
         orange: "#c2884f",
         gray: "#888",
+        "light-gray": "#e7e7e7",
         "gradient-grey": "#3a3a3a",
         "semi-black": "#444",
         "text-green": "#298a81",

@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
         </div>
       </article>
-      <article className="w-full py-14 border-t">
+      <article className="w-full py-14 border-t border-light-gray">
         <p className="w-full text-center px-4 xl:px-[10%] font-monteserat md:text-left">
           Copyright &copy; {new Date().getFullYear()} Coffee House | Powered by
           Coffee House

@@ -4,3 +4,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input,
+textarea {
+  @apply w-full border border-[#e7e7e7] bg-[#fafafa] p-2 rounded-sm;
+}
+
+input:focus,
+textarea:focus {
+  @apply bg-white outline-none border-dotted border-gray;
+}
+
+label {
+  @apply font-bold text-sm text-semi-black;
+}

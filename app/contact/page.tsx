@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactInfo, ImageSec, Intro } from "./components";
+import { ContactForm, ContactInfo, ImageSec, Intro } from "./components";
 
 function Contact() {
   return (
@@ -7,6 +7,7 @@ function Contact() {
       <Intro />
       <ContactInfo />
       <ImageSec />
+      <ContactForm />
     </main>
   );
 }
