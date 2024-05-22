@@ -13,7 +13,11 @@ const Footer = () => {
     <section className="flex flex-col items-center w-full">
       <article className="relative flex justify-between w-full">
         {footerSlidesArray.map((item, i) => (
-          <div key={i} className={`w-1/3 ${item.display} md:1/5 md:block`}>
+          <div
+            key={i}
+            className={`w-1/3 ${item.display} md:1/5 md:block`}
+            data-aos="fade-up"
+          >
             <img {...item} className="object-contain" />
           </div>
         ))}

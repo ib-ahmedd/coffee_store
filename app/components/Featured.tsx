@@ -12,7 +12,7 @@ function Featured() {
           Featured <br className="hidden md:block" /> Menu
         </h2>
       </div>
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col w-full md:flex-row">
         {featuredMenuArray.map((item) => (
           <MenuCard key={item.picNo} {...item} />
         ))}

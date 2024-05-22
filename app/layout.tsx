@@ -9,8 +9,8 @@ export const metadata = {
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
-    <html>
-      <body className="flex flex-col items-center font-monteserat">
+    <html className="w-full" lang="en">
+      <body className="w-full overflow-x-hidden flex flex-col items-center font-monteserat">
         <Navbar />
         {children}
         <Footer />

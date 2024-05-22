@@ -8,13 +8,19 @@ function WeServe() {
           We Serve One of the Best Coffee!
         </h2>
         <div className="flex mt-8 flex-col gap-8 md:flex-row md:gap-0">
-          <h3 className="font-yeseva text-text-green font-bold leading-6 w-full md:w-4/12 text-xl md:text-2xl md:pr-12">
+          <h3
+            className="font-yeseva text-text-green font-bold leading-6 w-full md:w-4/12 text-xl md:text-2xl md:pr-12"
+            data-aos="fade-left"
+          >
             We are an icon place lorem ipsum dolor sit amet, elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip.
           </h3>
-          <div className="w-full flex flex-col gap-6 md:w-8/12">
+          <div
+            className="w-full flex flex-col gap-6 md:w-8/12"
+            data-aos="zoom-in"
+          >
             <h3 className="font-yeseva font-bold text-semi-black text-xl md:text-3xl">
               The place where different coffee beans from all over the world
               meet. Lorem ipsum dolor sit amet, consectetur adipisicing elit,

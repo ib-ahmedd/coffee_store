@@ -22,13 +22,15 @@ function ContactInfo() {
             icon={faPhone}
             widthStyles="w-full md:w-1/2"
           />
-          <div className="flex flex-col gap-8 border-r border-border-orange py-8 px-4 w-full md:px-8 md:w-1/2 lg:py-20">
-            <h2 className="font-yeseva text-orange">Opening Hours</h2>
-            <ul className="flex flex-col gap-4 text-semi-black">
-              <li>Weekdays: 09:00 - 22:00</li>
-              <li>Saturday: 09:30 - 23:30</li>
-              <li>Sunday: 10:00 - 16:00</li>
-            </ul>
+          <div className="overflow-hidden border-r border-border-orange py-8 px-4 w-full md:px-8 md:w-1/2 lg:py-20">
+            <div className="flex flex-col gap-8 w-full" data-aos="fade-left">
+              <h2 className="font-yeseva text-orange">Opening Hours</h2>
+              <ul className="flex flex-col gap-4 text-semi-black">
+                <li>Weekdays: 09:00 - 22:00</li>
+                <li>Saturday: 09:30 - 23:30</li>
+                <li>Sunday: 10:00 - 16:00</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
