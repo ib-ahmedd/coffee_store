@@ -4,10 +4,15 @@ import NavLink from "./NavLink";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [pathname]);
   return (
     <nav className="z-20 w-full absolute font-monteserat top-0 flex flex-col items-center px-7 py-4 mx-auto xl:w-3/4 xl:px-0 md:flex-row md:justify-between">
       <span className="md:flex hidden gap-4 flex-1">
