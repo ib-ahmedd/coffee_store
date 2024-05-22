@@ -10,7 +10,7 @@ export const metadata = {
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
-    <html className="w-full" lang="en">
+    <html className="w-full overflow-x-hidden" lang="en">
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
