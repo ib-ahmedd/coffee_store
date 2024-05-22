@@ -23,7 +23,7 @@ function Featured() {
           className="text-text-green underline flex gap-4 items-center hover:text-orange"
         >
           View Full Menu
-          <span className="text-3xl border py-4 px-5 rounded-full text-semi-black hover:text-orange">
+          <span className="text-3xl border  py-4 px-5 rounded-full text-semi-black hover:text-orange">
             <FontAwesomeIcon icon={faArrowRight} />
           </span>
         </Link>

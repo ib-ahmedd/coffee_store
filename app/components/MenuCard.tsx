@@ -4,7 +4,7 @@ import React from "react";
 
 function MenuCard({ picNo, price, title }: MenuCardProps) {
   return (
-    <article className="flex-1 flex flex-col items-center border-b p-4 text-center md:border-b-0 md:border-r border-[#999]">
+    <article className="flex-1 flex flex-col items-center border-b p-4 text-center md:border-b-0 md:border-r border-border-orange">
       <div
         className="flex flex-col items-center text-center"
         data-aos="fade-left"
