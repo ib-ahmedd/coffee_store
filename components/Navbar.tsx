@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,12 +26,14 @@ const Navbar = () => {
         ))}
       </span>
       <div className="relative w-36 h-36 md:flex-1 md:w-32 md:h-32">
-        <Image
-          src={"/images/logo/logo.png"}
-          alt="site logo"
-          fill
-          className="object-contain"
-        />
+        <Link href="/">
+          <Image
+            src={"/images/logo/logo.png"}
+            alt="site logo"
+            fill
+            className="object-contain"
+          />
+        </Link>
       </div>
       <span className="flex-1 md:flex hidden justify-end">
         <button className="w-36 border text-white py-4">Order Online</button>

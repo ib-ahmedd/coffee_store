@@ -1,6 +1,7 @@
 import React from "react";
 import "./globals.css";
 import { Footer, Navbar } from "@components";
+import Head from "next/head";
 
 export const metadata = {
   title: "Coffee Store",
@@ -10,6 +11,9 @@ export const metadata = {
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html className="w-full" lang="en">
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <body className="w-full overflow-x-hidden flex flex-col items-center font-monteserat">
         <Navbar />
         {children}
