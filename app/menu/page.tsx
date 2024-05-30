@@ -8,8 +8,8 @@ import "aos/dist/aos.css";
 function Menu() {
   useEffect(() => {
     Aos.init({
-      duration: 500,
-      easing: "ease-out",
+      duration: 200,
+      easing: "ease-in-out",
     });
     Aos.refresh();
   }, []);
