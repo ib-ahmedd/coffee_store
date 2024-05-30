@@ -16,7 +16,8 @@ const Footer = () => {
           <div
             key={i}
             className={`w-1/3 ${item.display} md:1/5 md:block`}
-            data-aos="fade-up"
+            data-aos="fade-left"
+            data-aos-delay={item.delay}
           >
             <img {...item} className="object-contain" />
           </div>

@@ -12,26 +12,31 @@ export const footerSlidesArray = [
     src: "/images/footer/slide-1-img.jpg",
     alt: "first slide image",
     display: "block",
+    delay: "0",
   },
   {
     src: "/images/footer/slide-2-img.jpg",
     alt: "second slide image",
     display: "block",
+    delay: "100",
   },
   {
     src: "/images/footer/slide-3-img.jpg",
     alt: "third slide image",
     display: "block",
+    delay: "200",
   },
   {
     src: "/images/footer/slide-4-img.jpg",
     alt: "fought slide image",
     display: "hidden",
+    delay: "300",
   },
   {
     src: "/images/footer/slide-5-img.jpg",
     alt: "last slide image",
     display: "hidden",
+    delay: "400",
   },
 ];
 
