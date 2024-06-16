@@ -8,7 +8,7 @@ function ContactInfo() {
         <div className="w-full lg:w-1/2">
           <ContactInfoCard
             heading="Location"
-            info="123 Fifth Avenue, New York, NY 10160"
+            info="No1 Kogun street, NDC Kaduna, Nigeria"
             linkText="View On Google Maps"
             icon={faLocationDot}
             widthStyles="w-full"
@@ -17,8 +17,8 @@ function ContactInfo() {
         <div className="flex w-full flex-col md:flex-row lg:w-1/2">
           <ContactInfoCard
             heading="Reservations"
-            info="929-242-6868"
-            linkText="contact@info.com"
+            info="+2348161615860"
+            linkText="ahmed1768476@gmail.com"
             icon={faPhone}
             widthStyles="w-full md:w-1/2"
           />
